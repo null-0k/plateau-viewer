@@ -1,27 +1,3 @@
-// import { CesiumTerrainProvider, IonResource } from 'cesium'
-// import React, { useContext, useEffect } from 'react'
-
-// import { ViewerContext } from './Viewer'
-
-// export default function () {  
-//   const viewer = useContext(ViewerContext);
-
-//   useEffect(() => {
-//     if (!viewer || viewer.isDestroyed()) return;
-
-//     (async () => {
-//       // accessToken はもう書かない
-//       const terrain = await CesiumTerrainProvider.fromIonAssetId(770371, {
-//         // requestVertexNormals: true,
-//         // requestWaterMask: true,
-//       });
-//       viewer.terrainProvider = terrain;
-//     })();
-//   }, [viewer]);
-
-//   return null;
-// };
-
 import {
   CesiumTerrainProvider,
   IonResource,
